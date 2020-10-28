@@ -1,0 +1,16 @@
+print("The product which we use every single day? ")
+real_guess = "mobile"
+user_guess = input("Enter your guess: ")
+increasing_the_move = 0 
+moves_are_over = 4
+while user_guess != real_guess:
+    print("Your guess is incorrect! Try Again! ")
+    user_guess = input("Enter your guess: ")
+    increasing_the_move += 1
+
+    if increasing_the_move == moves_are_over and user_guess != real_guess:
+        print("MOVES ARE OVER ! YOU LOSE ! ")
+        break
+    
+if real_guess == user_guess:
+    print("YOU WIN!")
