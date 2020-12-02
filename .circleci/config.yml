@@ -1,6 +1,6 @@
 print("The product which we use every single day? ")
 real_guess = "mobile"
-user_guess = input("Enter your guess: ")
+user_guess = input("Enter your guess ")
 increasing_the_move = 0 
 moves_are_over = 4
 while user_guess != real_guess:
